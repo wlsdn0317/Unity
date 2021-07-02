@@ -1,0 +1,537 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'ko' Physical Memory: 4076 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/admin/Documents/GitHub/Unity/MAIN
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65399
+Successfully changed project path to: C:/Users/admin/Documents/GitHub/Unity/MAIN
+C:/Users/admin/Documents/GitHub/Unity/MAIN
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/admin/Documents/GitHub/Unity/MAIN/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTS 450 (ID=0x1245)
+    Vendor:   
+    VRAM:     979 MB
+    Driver:   23.21.13.8813
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006979 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.514 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.024282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1819.
+Total: 2.311900 ms (FindLiveObjects: 0.183500 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.942900 ms  DeleteObjects: 0.114600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/9626c20210108191036519/Fighting Place03_M.tga
+  artifactKey: Guid(da418c8c07fec44419ce04bfee5582c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9626c20210108191036519/Fighting Place03_M.tga using Guid(da418c8c07fec44419ce04bfee5582c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a7cd12c49ba9cd1804b48a5a4cde64') in 0.152397 seconds
+  Import took 0.157180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/9626c20210108191036519/Fighting Place01_D.tga
+  artifactKey: Guid(bfe8531b23d01a0459792b899ce32e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9626c20210108191036519/Fighting Place01_D.tga using Guid(bfe8531b23d01a0459792b899ce32e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749f588f09f5e129e16c85efa03b47c6') in 0.033096 seconds
+  Import took 0.037819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/9626c20210108191036519/Fighting Place01_M.tga
+  artifactKey: Guid(9b5a0c8d56cf004459d7564507209ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9626c20210108191036519/Fighting Place01_M.tga using Guid(9b5a0c8d56cf004459d7564507209ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511d1769fd9ce160616c5abf8beb7428') in 0.031972 seconds
+  Import took 0.036279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/9626c20210108191036519/Fighting Place02_M.tga
+  artifactKey: Guid(38fe04851697f7540b58f628859b58d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9626c20210108191036519/Fighting Place02_M.tga using Guid(38fe04851697f7540b58f628859b58d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d51a07a5de12be786ebd5f4f6a6bf7') in 0.023904 seconds
+  Import took 0.030142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/9626c20210108191036519/FBX/Fighting Place.FBX
+  artifactKey: Guid(dff0d7df49b23064cbdecfc1f3cede75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9626c20210108191036519/FBX/Fighting Place.FBX using Guid(dff0d7df49b23064cbdecfc1f3cede75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1bbe246990bf1decf8ae1cc61aca43') in 0.871965 seconds
+  Import took 0.877293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/9626c20210108191036519/FBX
+  artifactKey: Guid(24b6d8db0e8a7504f80b4bf2618d0f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9626c20210108191036519/FBX using Guid(24b6d8db0e8a7504f80b4bf2618d0f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712b0668e31c4978fdfa03ba2640ab49') in 0.009588 seconds
+  Import took 0.013531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/9626c20210108191036519/Fighting Place01_N.tga
+  artifactKey: Guid(5b9686bf5facb024187c7c29cac35d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9626c20210108191036519/Fighting Place01_N.tga using Guid(5b9686bf5facb024187c7c29cac35d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9a8863e3999373949be56f587fcbcd') in 0.023948 seconds
+  Import took 0.027628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/9626c20210108191036519/Fighting Place03_N.tga
+  artifactKey: Guid(541616be6192d3040af1cc4120b765a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9626c20210108191036519/Fighting Place03_N.tga using Guid(541616be6192d3040af1cc4120b765a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95aab5667cb38f5c56a537b182463830') in 0.020864 seconds
+  Import took 0.025175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/9626c20210108191036519/Fighting Place02_D.tga
+  artifactKey: Guid(8690822a1291d874bb92a850eeef331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9626c20210108191036519/Fighting Place02_D.tga using Guid(8690822a1291d874bb92a850eeef331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fe0e2aee06b98c1a20a58fbaa78aff') in 0.022946 seconds
+  Import took 0.026949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/9626c20210108191036519/Fighting Place_Screenshort.jpg
+  artifactKey: Guid(5cd7f1f6f409e1b44bcca8daf78b2ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9626c20210108191036519/Fighting Place_Screenshort.jpg using Guid(5cd7f1f6f409e1b44bcca8daf78b2ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb4435b4ad8d2469266234a2ebe5ec4') in 0.053187 seconds
+  Import took 0.056869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.607061 seconds.
+  path: Assets/captain.psd
+  artifactKey: Guid(5dd682ae5ed48204294adacb3086951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/captain.psd using Guid(5dd682ae5ed48204294adacb3086951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5d28303ad7307444aff2ef213373fc') in 0.031960 seconds
+  Import took 0.035807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/captain.psd
+  artifactKey: Guid(5dd682ae5ed48204294adacb3086951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/captain.psd using Guid(5dd682ae5ed48204294adacb3086951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5d28303ad7307444aff2ef213373fc') in 0.016410 seconds
+  Import took 0.019569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 242.084029 seconds.
+  path: Assets/captain.psd
+  artifactKey: Guid(5dd682ae5ed48204294adacb3086951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/captain.psd using Guid(5dd682ae5ed48204294adacb3086951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de1919f0d301fa0399282e326d8bdac') in 0.808115 seconds
+  Import took 0.812723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.738660 seconds.
+  path: Assets/captain.psd
+  artifactKey: Guid(5dd682ae5ed48204294adacb3086951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/captain.psd using Guid(5dd682ae5ed48204294adacb3086951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4ba27f99589f9f7d2b0090c15e2c37') in 0.017894 seconds
+  Import took 0.022819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.978246 seconds.
+  path: Assets/captain.psd
+  artifactKey: Guid(5dd682ae5ed48204294adacb3086951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/captain.psd using Guid(5dd682ae5ed48204294adacb3086951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d21f758d0761965f8cbc9c41190926') in 0.049457 seconds
+  Import took 0.054603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 538.416921 seconds.
+  path: Assets/warrok_w_kurniawan 1.fbx
+  artifactKey: Guid(107ca036dc8941c48859bf163ee2eaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/warrok_w_kurniawan 1.fbx using Guid(107ca036dc8941c48859bf163ee2eaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7153cc906f3c6f4ed50f05111e969b1') in 0.738967 seconds
+  Import took 0.743173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.708528 seconds.
+  path: Assets/warrok_w_kurniawan.fbx
+  artifactKey: Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/warrok_w_kurniawan.fbx using Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233ab719f62f6e4ec74fa58767eae804') in 0.061238 seconds
+  Import took 0.065585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 534.135774 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.018256 seconds
+  Import took 0.026181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 426.732600 seconds.
+  path: Assets/warrok_w_kurniawan.fbx
+  artifactKey: Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/warrok_w_kurniawan.fbx using Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe182f3050dde277fba5831567fe1b1') in 0.090454 seconds
+  Import took 0.095119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.217528 seconds.
+  path: Assets/warrok_w_kurniawan.fbx
+  artifactKey: Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/warrok_w_kurniawan.fbx using Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b73a9ddfe7ad7d0e75d482f6190032') in 0.065466 seconds
+  Import took 0.069143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.066234 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8e1da62a629dda54595f6a7467d82c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8e1da62a629dda54595f6a7467d82c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc79b17707a74b3f7104d6cc6ad5d66') in 0.018474 seconds
+  Import took 0.022637 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.055 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1874.
+Total: 5.012500 ms (FindLiveObjects: 0.300400 ms CreateObjectMapping: 0.073900 ms MarkObjects: 4.513800 ms  DeleteObjects: 0.122200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 400.530677 seconds.
+  path: Assets/warrok_w_kurniawan.fbx
+  artifactKey: Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/warrok_w_kurniawan.fbx using Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d8183a17d24be53e79951c7753a929') in 0.195437 seconds
+  Import took 0.199806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.022609 seconds.
+  path: Assets/warrok_w_kurniawan.fbx
+  artifactKey: Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/warrok_w_kurniawan.fbx using Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773bdf6945860e1220089067811cc58d') in 0.127968 seconds
+  Import took 0.132018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.269555 seconds.
+  path: Assets/warrok_w_kurniawan.fbx
+  artifactKey: Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/warrok_w_kurniawan.fbx using Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ac0ea499adf374ad11d0bbe1fc7c31') in 0.093983 seconds
+  Import took 0.098616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.528860 seconds.
+  path: Assets/warrok_w_kurniawan.fbx
+  artifactKey: Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/warrok_w_kurniawan.fbx using Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd140e89038581039bf6cd85c024e13df') in 0.101872 seconds
+  Import took 0.109038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.350355 seconds.
+  path: Assets/warrok_w_kurniawan.fbx
+  artifactKey: Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/warrok_w_kurniawan.fbx using Guid(619b1da27ca905c4593b98ce17710d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e82317da1b15354323a9658e323e410') in 0.068267 seconds
+  Import took 0.073322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.437243 seconds.
+  path: Assets/9626c20210108191036519
+  artifactKey: Guid(b248ca8fc44467d46b6bcd63e0337839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9626c20210108191036519 using Guid(b248ca8fc44467d46b6bcd63e0337839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b330fcb3969dc353f777e26da4ec00bb') in 0.021877 seconds
+  Import took 0.026488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.717379 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(36a33a6332165cb4996385a09a1b2a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(36a33a6332165cb4996385a09a1b2a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7213b73897e94095c0ca14141e442f38') in 0.022044 seconds
+  Import took 0.026749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.022512 seconds.
+  path: Assets/Models
+  artifactKey: Guid(3c43214b32b06b545be0afa14e52ec4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(3c43214b32b06b545be0afa14e52ec4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216a865eb7f4263fc82ef9f12ddb039a') in 0.015563 seconds
+  Import took 0.023740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.237806 seconds.
+  path: Assets/Models/Character
+  artifactKey: Guid(0c3a7041b4a081742ad7bf1b8319f593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character using Guid(0c3a7041b4a081742ad7bf1b8319f593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6ec9787f0a8f978c552b1047057f06') in 0.016151 seconds
+  Import took 0.020314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.392979 seconds.
+  path: Assets/Models/Character/Sword and Shield Pack
+  artifactKey: Guid(ef0488a4634f3534b8be6cc8bd72cc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Sword and Shield Pack using Guid(ef0488a4634f3534b8be6cc8bd72cc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcacd6a689404ba9507e25e988a0353b') in 0.014981 seconds
+  Import took 0.018360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.836740 seconds.
+  path: Assets/Models/Character/Sword and Shield Pack/sheath sword 1.fbx
+  artifactKey: Guid(596d809c4b5957747b46e450fd4763fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Sword and Shield Pack/sheath sword 1.fbx using Guid(596d809c4b5957747b46e450fd4763fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed319a0a4f740e69727a09801267fac') in 0.022140 seconds
+  Import took 0.026391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.613524 seconds.
+  path: Assets/Models/Character/Sword and Shield Pack/sword and shield turn.fbx
+  artifactKey: Guid(dea63fc185ca83b4b9c24d728fc3ec48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Sword and Shield Pack/sword and shield turn.fbx using Guid(dea63fc185ca83b4b9c24d728fc3ec48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0de7c11dc93f7ccb74fdc3675d1d6a7') in 0.017724 seconds
+  Import took 0.022585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.760321 seconds.
+  path: Assets/Models/Character/warrok_w_kurniawan.fbx
+  artifactKey: Guid(38693525c389ca248a8df4e1a7770116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/warrok_w_kurniawan.fbx using Guid(38693525c389ca248a8df4e1a7770116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d85f4cc4e5f39c10e1bf238652fe03b') in 0.105277 seconds
+  Import took 0.110749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.051588 seconds.
+  path: Assets/Models/Character/warrok_w_kurniawan.fbx
+  artifactKey: Guid(38693525c389ca248a8df4e1a7770116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/warrok_w_kurniawan.fbx using Guid(38693525c389ca248a8df4e1a7770116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5789443953d0dc573e629fe940d12bc9') in 0.092325 seconds
+  Import took 0.096004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.789093 seconds.
+  path: Assets/Models/Character/sword and shield walk.fbx
+  artifactKey: Guid(1d1782a107222a844b64a1a560fa3cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield walk.fbx using Guid(1d1782a107222a844b64a1a560fa3cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1439152d3686ca8f15bae839612d8151') in 0.020240 seconds
+  Import took 0.024926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.981589 seconds.
+  path: Assets/Models/Character/sword and shield turn.fbx
+  artifactKey: Guid(dea63fc185ca83b4b9c24d728fc3ec48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield turn.fbx using Guid(dea63fc185ca83b4b9c24d728fc3ec48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1139e9df76691b2647675a1f5a9bbf') in 0.011938 seconds
+  Import took 0.015809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.146829 seconds.
+  path: Assets/Models/Character/sword and shield turn.fbx
+  artifactKey: Guid(dea63fc185ca83b4b9c24d728fc3ec48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield turn.fbx using Guid(dea63fc185ca83b4b9c24d728fc3ec48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1139e9df76691b2647675a1f5a9bbf') in 0.009531 seconds
+  Import took 0.015697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.957145 seconds.
+  path: Assets/Models/Character/sword and shield slash (3).fbx
+  artifactKey: Guid(172a84ac22777254586c32ab48317ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield slash (3).fbx using Guid(172a84ac22777254586c32ab48317ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6a071c94ff28596e232b9994532a21') in 0.018111 seconds
+  Import took 0.022196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.005296 seconds.
+  path: Assets/Models/Character/sheath sword 1.fbx
+  artifactKey: Guid(596d809c4b5957747b46e450fd4763fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sheath sword 1.fbx using Guid(596d809c4b5957747b46e450fd4763fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185ebc9a3ed16b31f57128f1ab8c20bd') in 0.009890 seconds
+  Import took 0.019068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.125706 seconds.
+  path: Assets/Models/Character/sword and shield 180 turn (2).fbx
+  artifactKey: Guid(2e1ed74f06b7a464e80fa412e45151f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield 180 turn (2).fbx using Guid(2e1ed74f06b7a464e80fa412e45151f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8dc23f5317fc4b5e2420a3787e4a4a') in 0.028806 seconds
+  Import took 0.032900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001316 seconds.
+  path: Assets/Models/Character/sword and shield 180 turn (2).fbx
+  artifactKey: Guid(2e1ed74f06b7a464e80fa412e45151f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield 180 turn (2).fbx using Guid(2e1ed74f06b7a464e80fa412e45151f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8dc23f5317fc4b5e2420a3787e4a4a') in 0.012939 seconds
+  Import took 0.021107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.776454 seconds.
+  path: Assets/Models/Character/sheath sword 2.fbx
+  artifactKey: Guid(7003c102dcf521444ae6b101e92ab5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sheath sword 2.fbx using Guid(7003c102dcf521444ae6b101e92ab5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ab531379724d06a6ed55e2f0349fc8') in 0.027261 seconds
+  Import took 0.032118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001667 seconds.
+  path: Assets/Models/Character/sheath sword 2.fbx
+  artifactKey: Guid(7003c102dcf521444ae6b101e92ab5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sheath sword 2.fbx using Guid(7003c102dcf521444ae6b101e92ab5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ab531379724d06a6ed55e2f0349fc8') in 0.014306 seconds
+  Import took 0.017900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.366600 seconds.
+  path: Assets/Models/Character/sword and shield 180 turn.fbx
+  artifactKey: Guid(5fa11f946aaed954d8965443c134185b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield 180 turn.fbx using Guid(5fa11f946aaed954d8965443c134185b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d68571ecd3e21329dfee167e8391c7') in 0.018952 seconds
+  Import took 0.022599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.567291 seconds.
+  path: Assets/Models/Character/sword and shield attack (2).fbx
+  artifactKey: Guid(653c4c13ee9931a4485933974857aef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield attack (2).fbx using Guid(653c4c13ee9931a4485933974857aef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c47682273970aedaf8786bdc90ded7') in 0.017470 seconds
+  Import took 0.021111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.620269 seconds.
+  path: Assets/Models/Character/sword and shield attack (3).fbx
+  artifactKey: Guid(6a3369d402cfa98478fc887545f73bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield attack (3).fbx using Guid(6a3369d402cfa98478fc887545f73bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa71bb5a6802a6a6dd890205c1c4a77') in 0.017745 seconds
+  Import took 0.021438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.074990 seconds.
+  path: Assets/Models/Character/warrok_w_kurniawan.fbx
+  artifactKey: Guid(38693525c389ca248a8df4e1a7770116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/warrok_w_kurniawan.fbx using Guid(38693525c389ca248a8df4e1a7770116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c040079c1a93d8d53b175b02e5d6fa02') in 0.133939 seconds
+  Import took 0.138531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.490036 seconds.
+  path: Assets/Models/Character/warrok_w_kurniawan.fbx
+  artifactKey: Guid(38693525c389ca248a8df4e1a7770116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/warrok_w_kurniawan.fbx using Guid(38693525c389ca248a8df4e1a7770116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a157d0f2260f1e083cb0169bba43c75') in 0.091856 seconds
+  Import took 0.096167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.743992 seconds.
+  path: Assets/Models/Character/sword and shield power up.fbx
+  artifactKey: Guid(89428a38db19f8642b439e4be1a86e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield power up.fbx using Guid(89428a38db19f8642b439e4be1a86e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f1ba828a65170c6b18df4df54358ba') in 0.035983 seconds
+  Import took 0.042422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060348 seconds.
+  path: Assets/Models/Character/sword and shield run (2).fbx
+  artifactKey: Guid(959041fe8d5bbde48b74a42ded84f45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield run (2).fbx using Guid(959041fe8d5bbde48b74a42ded84f45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c0b8d062fc38d565cfb67c14e3ca7c') in 0.022258 seconds
+  Import took 0.033938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007919 seconds.
+  path: Assets/Models/Character/sword and shield run (2).fbx
+  artifactKey: Guid(959041fe8d5bbde48b74a42ded84f45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield run (2).fbx using Guid(959041fe8d5bbde48b74a42ded84f45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c0b8d062fc38d565cfb67c14e3ca7c') in 0.016259 seconds
+  Import took 0.019812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.023769 seconds.
+  path: Assets/Models/Character/sword and shield slash (2).fbx
+  artifactKey: Guid(6a5b570b521abf84d8358760540b72b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield slash (2).fbx using Guid(6a5b570b521abf84d8358760540b72b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679e32dd9a20f28c209d22ce39d90403') in 0.023451 seconds
+  Import took 0.028120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003405 seconds.
+  path: Assets/Models/Character/sword and shield slash (2).fbx
+  artifactKey: Guid(6a5b570b521abf84d8358760540b72b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield slash (2).fbx using Guid(6a5b570b521abf84d8358760540b72b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679e32dd9a20f28c209d22ce39d90403') in 0.018062 seconds
+  Import took 0.022822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.135596 seconds.
+  path: Assets/Models/Character/sword and shield slash (4).fbx
+  artifactKey: Guid(eaa300613f8151d489d4bdf7d7d59802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield slash (4).fbx using Guid(eaa300613f8151d489d4bdf7d7d59802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55154be46c54dad8ce7de57772b0d43') in 0.029073 seconds
+  Import took 0.032895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000666 seconds.
+  path: Assets/Models/Character/sword and shield slash (4).fbx
+  artifactKey: Guid(eaa300613f8151d489d4bdf7d7d59802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/sword and shield slash (4).fbx using Guid(eaa300613f8151d489d4bdf7d7d59802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55154be46c54dad8ce7de57772b0d43') in 0.015305 seconds
+  Import took 0.019906 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
