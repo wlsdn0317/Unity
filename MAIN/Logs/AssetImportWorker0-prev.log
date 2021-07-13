@@ -1,0 +1,1592 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1083; Version 2009; 64bit' Language: 'ko' Physical Memory: 4076 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/admin/Documents/GitHub/Unity/MAIN
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49871
+Successfully changed project path to: C:/Users/admin/Documents/GitHub/Unity/MAIN
+C:/Users/admin/Documents/GitHub/Unity/MAIN
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/admin/Documents/GitHub/Unity/MAIN/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTS 450 (ID=0x1245)
+    Vendor:   
+    VRAM:     979 MB
+    Driver:   23.21.13.8813
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006404 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.908 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.023078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.584 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1838.
+Total: 3.009400 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.070500 ms MarkObjects: 2.570400 ms  DeleteObjects: 0.140400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/02.Scripts/Axis.cs
+  artifactKey: Guid(034c9ec318476eb4eb213a0a9a685082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/Axis.cs using Guid(034c9ec318476eb4eb213a0a9a685082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53be3108a3590f040bd4fadd91ae1458') in 0.105253 seconds
+  Import took 0.110933 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.0 MB.
+System memory in use after: 53.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1838.
+Total: 2.788100 ms (FindLiveObjects: 0.177400 ms CreateObjectMapping: 0.061600 ms MarkObjects: 2.457300 ms  DeleteObjects: 0.090300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3902.059675 seconds.
+  path: Assets/Resources/Example/Materials
+  artifactKey: Guid(691ba80e8ca6a044db23252409363043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Example/Materials using Guid(691ba80e8ca6a044db23252409363043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4c2790af03492bfb467bc91305ad23') in 0.052704 seconds
+  Import took 0.167109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2914.929814 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations
+  artifactKey: Guid(4ed93f52c1a9abd46a44bf3b86d6b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations using Guid(4ed93f52c1a9abd46a44bf3b86d6b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fe5dc4cbd0103a7cf8a728ba9e73ad') in 0.028035 seconds
+  Import took 0.105618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.927040 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Models
+  artifactKey: Guid(35b020203ef896b4db4b7d06d121cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Models using Guid(35b020203ef896b4db4b7d06d121cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812344b14a71a9f4afb9e2ad83dc8e20') in 0.019757 seconds
+  Import took 0.023640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.350566 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Models/Characters
+  artifactKey: Guid(3b46057b6e379a546870159ef178bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Models/Characters using Guid(3b46057b6e379a546870159ef178bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9480d344612123ecbb8449a042043887') in 0.019194 seconds
+  Import took 0.023595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.943831 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Models/Weapons
+  artifactKey: Guid(9e3ecd90f8314424fa22bd1a73002a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Models/Weapons using Guid(9e3ecd90f8314424fa22bd1a73002a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f20a886cccdf3430d712a331270fa1c') in 0.016164 seconds
+  Import took 0.021219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.158081 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Models/Weapons/MeleeWarriorSword.fbx
+  artifactKey: Guid(21ca816de6f3abd4cbee2c0462c8a186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Models/Weapons/MeleeWarriorSword.fbx using Guid(21ca816de6f3abd4cbee2c0462c8a186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0230c4d65198646cfabc1fc318834ea0') in 1.829890 seconds
+  Import took 1.834453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Models/Weapons/MeleeWarriorShield.fbx
+  artifactKey: Guid(319f1d32cbddc7d48a711c009e583764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Models/Weapons/MeleeWarriorShield.fbx using Guid(319f1d32cbddc7d48a711c009e583764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5b68c04e353f1e8aeda37e1c34f1c0') in 0.046751 seconds
+  Import took 0.052823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.220144 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/MeleeWarrior@Death01.fbx
+  artifactKey: Guid(f45f25a676b0b0841a9ae2d01172d138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/MeleeWarrior@Death01.fbx using Guid(f45f25a676b0b0841a9ae2d01172d138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46b00e92d1570864917c52c1df8129d') in 0.045506 seconds
+  Import took 0.052410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.735079 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded
+  artifactKey: Guid(9992b8ec950ff9d47ba9d7745e9e1a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded using Guid(9992b8ec950ff9d47ba9d7745e9e1a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4d51badda5dc81061ecf85777983f5') in 0.055039 seconds
+  Import took 0.067028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.077905 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H
+  artifactKey: Guid(00a44ee4d6bed8f4680098a61d4308fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H using Guid(00a44ee4d6bed8f4680098a61d4308fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f64f68e3b64ed495b677c472ae011d9') in 0.018877 seconds
+  Import took 0.023467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.519573 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@CombatIdle.controller
+  artifactKey: Guid(92efc5a6051953a4db45a52f72df44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@CombatIdle.controller using Guid(92efc5a6051953a4db45a52f72df44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251e6500a95db3d92acb5effc910f91a') in 0.043515 seconds
+  Import took 0.048648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.517306 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackward.controller
+  artifactKey: Guid(5f8f4e5419636514fa2abc760365db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackward.controller using Guid(5f8f4e5419636514fa2abc760365db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4954e0152df8fb711b17f726c35aa54') in 0.021608 seconds
+  Import took 0.025616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.373689 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackwardLeft.controller
+  artifactKey: Guid(d2575006a30e3874184495ee08a763ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackwardLeft.controller using Guid(d2575006a30e3874184495ee08a763ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07361b446cdc27fb9d7fbed085571600') in 0.018061 seconds
+  Import took 0.024110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.300865 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@ShieldAttacks.controller
+  artifactKey: Guid(bbc979b0acea15b46baed65de61b56e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@ShieldAttacks.controller using Guid(bbc979b0acea15b46baed65de61b56e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73b605d297c6fcb7e2cc977e5452e1f') in 0.020948 seconds
+  Import took 0.027402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 548.220140 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack (1).fbx
+  artifactKey: Guid(22b1be03b37a56443a130986558d8943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack (1).fbx using Guid(22b1be03b37a56443a130986558d8943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee3d879748e98a8afe2341d819455f4') in 0.031058 seconds
+  Import took 0.037192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.659010 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack.fbx
+  artifactKey: Guid(0f16d30565954a543bc6640e6b1a70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack.fbx using Guid(0f16d30565954a543bc6640e6b1a70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f7da2e671c5ca9b50bb74adaa9b7d9') in 0.027259 seconds
+  Import took 0.033778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002393 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack.fbx
+  artifactKey: Guid(0f16d30565954a543bc6640e6b1a70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack.fbx using Guid(0f16d30565954a543bc6640e6b1a70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f7da2e671c5ca9b50bb74adaa9b7d9') in 0.021697 seconds
+  Import took 0.027323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.357076 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash (1).fbx
+  artifactKey: Guid(a51fd5d11e134f04889aa8386671feec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash (1).fbx using Guid(a51fd5d11e134f04889aa8386671feec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9aece249a4ef7fd61f30da83b3f641') in 0.028774 seconds
+  Import took 0.034641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash (1).fbx
+  artifactKey: Guid(a51fd5d11e134f04889aa8386671feec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash (1).fbx using Guid(a51fd5d11e134f04889aa8386671feec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9aece249a4ef7fd61f30da83b3f641') in 0.025662 seconds
+  Import took 0.033893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.912305 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash.fbx
+  artifactKey: Guid(51ba7eaab23ca8c4c8d85981eb42b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash.fbx using Guid(51ba7eaab23ca8c4c8d85981eb42b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dd59c8e9bcb96de616fe0b1ee68b10') in 0.028261 seconds
+  Import took 0.035166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.643099 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack (1).fbx
+  artifactKey: Guid(22b1be03b37a56443a130986558d8943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack (1).fbx using Guid(22b1be03b37a56443a130986558d8943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca35ae5b0487920b11002920f194d445') in 0.578303 seconds
+  Import took 0.585061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 364.317809 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash.fbx
+  artifactKey: Guid(51ba7eaab23ca8c4c8d85981eb42b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash.fbx using Guid(51ba7eaab23ca8c4c8d85981eb42b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e136d17a79ae83c9c342e659205d6ff') in 0.070475 seconds
+  Import took 0.076289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.638330 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Kick.fbx
+  artifactKey: Guid(6a6e13a316a81c84491cf93b431cf140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Kick.fbx using Guid(6a6e13a316a81c84491cf93b431cf140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a81607db7bb911877b90dc78764e9ac') in 0.038235 seconds
+  Import took 0.044363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.534128 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack.fbx
+  artifactKey: Guid(0f16d30565954a543bc6640e6b1a70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack.fbx using Guid(0f16d30565954a543bc6640e6b1a70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbdeb6b543f344810d9d153189793a7') in 0.033285 seconds
+  Import took 0.040137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.808521 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash (1).fbx
+  artifactKey: Guid(a51fd5d11e134f04889aa8386671feec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash (1).fbx using Guid(a51fd5d11e134f04889aa8386671feec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d31726d7d4d35165763465eb11555e') in 0.041575 seconds
+  Import took 0.047585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.437082 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash (2).fbx
+  artifactKey: Guid(3330e40cd06bbcd43bb0afb33fb9f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash (2).fbx using Guid(3330e40cd06bbcd43bb0afb33fb9f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed987e79cece54464dcb70b4e44f195') in 0.043857 seconds
+  Import took 0.049731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.967874 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash.fbx
+  artifactKey: Guid(51ba7eaab23ca8c4c8d85981eb42b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Slash.fbx using Guid(51ba7eaab23ca8c4c8d85981eb42b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872ec00a873d32ddd9d9606272a6eec3') in 0.037084 seconds
+  Import took 0.042096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 985.949762 seconds.
+  path: Assets/02.Scripts/PlayerAnimator.cs
+  artifactKey: Guid(4242c8a75e49b524a953720abd9d030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/PlayerAnimator.cs using Guid(4242c8a75e49b524a953720abd9d030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a166af632f9b1f3da24a45adeace8f') in 0.047935 seconds
+  Import took 0.090846 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.905 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 5.084000 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.063400 ms MarkObjects: 3.888400 ms  DeleteObjects: 0.949400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.585785 seconds.
+  path: Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack (1).fbx
+  artifactKey: Guid(22b1be03b37a56443a130986558d8943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/warrok_w_kurniawan@Sword And Shield Attack (1).fbx using Guid(22b1be03b37a56443a130986558d8943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64f8f13e418df71ef26ea2f4ca98c76') in 0.172271 seconds
+  Import took 0.181525 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.824 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1889.
+Total: 5.179800 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.085800 ms MarkObjects: 4.446100 ms  DeleteObjects: 0.373900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 2.575000 ms (FindLiveObjects: 0.179300 ms CreateObjectMapping: 0.066300 ms MarkObjects: 2.240000 ms  DeleteObjects: 0.087500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009402 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.770 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1895.
+Total: 2.215500 ms (FindLiveObjects: 0.165400 ms CreateObjectMapping: 0.068600 ms MarkObjects: 1.884000 ms  DeleteObjects: 0.096000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.572 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 2.309400 ms (FindLiveObjects: 0.166000 ms CreateObjectMapping: 0.063800 ms MarkObjects: 1.977700 ms  DeleteObjects: 0.100300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.688 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 2.714300 ms (FindLiveObjects: 0.263200 ms CreateObjectMapping: 0.088800 ms MarkObjects: 2.257800 ms  DeleteObjects: 0.102300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 3.398800 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.064500 ms MarkObjects: 3.065700 ms  DeleteObjects: 0.104900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030326 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.460 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1907.
+Total: 10.991400 ms (FindLiveObjects: 0.522700 ms CreateObjectMapping: 0.082000 ms MarkObjects: 9.771900 ms  DeleteObjects: 0.612400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.472 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1910.
+Total: 2.271300 ms (FindLiveObjects: 0.168400 ms CreateObjectMapping: 0.063100 ms MarkObjects: 1.941700 ms  DeleteObjects: 0.096800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013147 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.523 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 3.084500 ms (FindLiveObjects: 0.178900 ms CreateObjectMapping: 0.063400 ms MarkObjects: 2.740200 ms  DeleteObjects: 0.100200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.681 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 3.019700 ms (FindLiveObjects: 0.169900 ms CreateObjectMapping: 0.062800 ms MarkObjects: 1.958000 ms  DeleteObjects: 0.827600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010068 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.519 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1919.
+Total: 2.445800 ms (FindLiveObjects: 0.181700 ms CreateObjectMapping: 0.065000 ms MarkObjects: 2.101000 ms  DeleteObjects: 0.096100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019579 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.444 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1922.
+Total: 2.314100 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.061600 ms MarkObjects: 1.984800 ms  DeleteObjects: 0.099700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.505 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 2.330600 ms (FindLiveObjects: 0.169100 ms CreateObjectMapping: 0.064100 ms MarkObjects: 2.003600 ms  DeleteObjects: 0.092100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.554 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1928.
+Total: 2.394300 ms (FindLiveObjects: 0.182700 ms CreateObjectMapping: 0.065700 ms MarkObjects: 2.060900 ms  DeleteObjects: 0.083700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1931.
+Total: 2.405600 ms (FindLiveObjects: 0.180100 ms CreateObjectMapping: 0.065900 ms MarkObjects: 2.070300 ms  DeleteObjects: 0.087600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012231 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.540 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1934.
+Total: 2.352400 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.066200 ms MarkObjects: 2.008400 ms  DeleteObjects: 0.086000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008782 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1937.
+Total: 2.369300 ms (FindLiveObjects: 0.160200 ms CreateObjectMapping: 0.064000 ms MarkObjects: 2.057200 ms  DeleteObjects: 0.086300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4766.949346 seconds.
+  path: Assets/Resources/Kai (1).prefab
+  artifactKey: Guid(4e8121351de17c2478860010daea533f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Kai (1).prefab using Guid(4e8121351de17c2478860010daea533f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb000a860154b93a436ba5acb9469bc') in 2.065567 seconds
+  Import took 2.082071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 314.766516 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Kick.fbx
+  artifactKey: Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Kick.fbx using Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdda5b8f9ea17aff52ef5abf6603b5e3') in 0.076549 seconds
+  Import took 0.087799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.291747 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Kick.fbx
+  artifactKey: Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Kick.fbx using Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a2095e4b8e247b69df79ebcf143217') in 0.033971 seconds
+  Import took 0.038960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.137175 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Kick.fbx
+  artifactKey: Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Kick.fbx using Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a114f5987e9fa07b88690f74c1913760') in 0.038471 seconds
+  Import took 0.044260 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.944 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 97.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 4.588200 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.062800 ms MarkObjects: 3.896000 ms  DeleteObjects: 0.450700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 327.405634 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Kick.fbx
+  artifactKey: Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Kick.fbx using Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d4a9c1276918d665a74d3b591fb26b') in 0.094183 seconds
+  Import took 0.100083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.851905 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Kick.fbx
+  artifactKey: Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Kick.fbx using Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17c0b6f6ad32f29e3f40d3ec2bcfb86') in 0.021623 seconds
+  Import took 0.026752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.767434 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Kick.fbx
+  artifactKey: Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Kick.fbx using Guid(70a801c6c6a940543af16d0458d0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a666c64c2a406131de9470a814c6a846') in 0.022069 seconds
+  Import took 0.028833 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010584 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.555 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 97.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1944.
+Total: 2.817300 ms (FindLiveObjects: 0.165300 ms CreateObjectMapping: 0.063900 ms MarkObjects: 2.485500 ms  DeleteObjects: 0.100800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 291.121175 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea316de6ba6c0fe7d677b5616e492343') in 0.079683 seconds
+  Import took 0.089400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.404962 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37d1eceaa40b8e4161fc26ccad5099d') in 0.037506 seconds
+  Import took 0.043915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.995688 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0720ade31340c690c5c92ce747f9304') in 0.031612 seconds
+  Import took 0.036002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 387.145299 seconds.
+  path: Assets/05.Models/Kai.fbx
+  artifactKey: Guid(c8634e41668d6254a9b096f5e9d13150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/Kai.fbx using Guid(c8634e41668d6254a9b096f5e9d13150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65097b41915bd5fcaaec039b9bbbabb0') in 0.671198 seconds
+  Import took 0.680069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.087857 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5851dfc61dd6e041ac616ce764879f0e') in 0.031458 seconds
+  Import took 0.037127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.996858 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded02af49666052d25046e396149edc8') in 0.040945 seconds
+  Import took 0.050785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.243204 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(a95ef755feeda0c45bffb506cc57eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dae963885cb1e180d085d498431285') in 0.027128 seconds
+  Import took 0.032599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1922.020044 seconds.
+  path: Assets/07.Animations/Player.controller
+  artifactKey: Guid(7c16ab0239439aa4f924f70f57cfee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Player.controller using Guid(7c16ab0239439aa4f924f70f57cfee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3670c3acbd8e01a13a8d8df03202b361') in 0.221727 seconds
+  Import took 0.317658 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.896 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 97.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1948.
+Total: 4.587700 ms (FindLiveObjects: 0.270600 ms CreateObjectMapping: 0.079100 ms MarkObjects: 3.824400 ms  DeleteObjects: 0.411500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008370 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.511 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 97.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1951.
+Total: 2.258700 ms (FindLiveObjects: 0.171800 ms CreateObjectMapping: 0.062800 ms MarkObjects: 1.942900 ms  DeleteObjects: 0.079800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 280.141037 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash.fbx
+  artifactKey: Guid(8c2fc7798394aef4ca183579d2b2e100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash.fbx using Guid(8c2fc7798394aef4ca183579d2b2e100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61ee24a9bff75bd7b3d39aa5951aa50') in 0.234456 seconds
+  Import took 0.241673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.127202 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash.fbx
+  artifactKey: Guid(8c2fc7798394aef4ca183579d2b2e100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash.fbx using Guid(8c2fc7798394aef4ca183579d2b2e100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31d12dd5fe368b67ebf9985a3c0b93c') in 0.034009 seconds
+  Import took 0.048925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.410076 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash.fbx
+  artifactKey: Guid(8c2fc7798394aef4ca183579d2b2e100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash.fbx using Guid(8c2fc7798394aef4ca183579d2b2e100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1a1c310883900191f8465a00d19346') in 0.035876 seconds
+  Import took 0.041509 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 97.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 2.958400 ms (FindLiveObjects: 0.209000 ms CreateObjectMapping: 0.065600 ms MarkObjects: 2.588400 ms  DeleteObjects: 0.093400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.557200 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash.fbx
+  artifactKey: Guid(8c2fc7798394aef4ca183579d2b2e100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash.fbx using Guid(8c2fc7798394aef4ca183579d2b2e100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404c57b24e67a03b3ff6b54ce9703d6d') in 0.098524 seconds
+  Import took 0.105258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.232724 seconds.
+  path: Assets/07.Animations/Player.controller
+  artifactKey: Guid(7c16ab0239439aa4f924f70f57cfee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Player.controller using Guid(7c16ab0239439aa4f924f70f57cfee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ca0c13b60d2ec47ad0ce32976f8987') in 0.047105 seconds
+  Import took 0.067642 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.569 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 97.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 5.067500 ms (FindLiveObjects: 0.209500 ms CreateObjectMapping: 0.067700 ms MarkObjects: 4.168000 ms  DeleteObjects: 0.619900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 951.834755 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash (1).fbx
+  artifactKey: Guid(2bf193a51da69164e8f359fdc4614d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash (1).fbx using Guid(2bf193a51da69164e8f359fdc4614d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6264b84d5f2c9fc28eb263169c1eff') in 0.163326 seconds
+  Import took 0.169699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028306 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash (1).fbx
+  artifactKey: Guid(2bf193a51da69164e8f359fdc4614d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash (1).fbx using Guid(2bf193a51da69164e8f359fdc4614d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6264b84d5f2c9fc28eb263169c1eff') in 0.025199 seconds
+  Import took 0.031496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.866758 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash (2).fbx
+  artifactKey: Guid(ef1f244de62250a40af322ef49d9c435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash (2).fbx using Guid(ef1f244de62250a40af322ef49d9c435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebf43c77fea706c612a1a4ab204a1e6') in 0.034835 seconds
+  Import took 0.039706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.857694 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Attack (1).fbx
+  artifactKey: Guid(f0a2f42ad1c3d974a9e723c06c4f4177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Attack (1).fbx using Guid(f0a2f42ad1c3d974a9e723c06c4f4177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a284e1e20f008260244e8580090e637b') in 0.028951 seconds
+  Import took 0.035608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.926134 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash (2).fbx
+  artifactKey: Guid(ef1f244de62250a40af322ef49d9c435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash (2).fbx using Guid(ef1f244de62250a40af322ef49d9c435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb63ed5f78254baa0f11088e4c82670') in 0.025453 seconds
+  Import took 0.031923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.724161 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash (1).fbx
+  artifactKey: Guid(2bf193a51da69164e8f359fdc4614d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash (1).fbx using Guid(2bf193a51da69164e8f359fdc4614d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1450ce4d590655d4e425303ef61d97f2') in 0.027682 seconds
+  Import took 0.033186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.169586 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Attack (1).fbx
+  artifactKey: Guid(f0a2f42ad1c3d974a9e723c06c4f4177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Attack (1).fbx using Guid(f0a2f42ad1c3d974a9e723c06c4f4177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574c9dfe4d2ea5e384e1751df9d53d95') in 0.025998 seconds
+  Import took 0.031313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.911880 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash (1).fbx
+  artifactKey: Guid(2bf193a51da69164e8f359fdc4614d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash (1).fbx using Guid(2bf193a51da69164e8f359fdc4614d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54d6d21f5a6dff1de1bd7f035d7dae0') in 0.032835 seconds
+  Import took 0.038531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.038592 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash (2).fbx
+  artifactKey: Guid(ef1f244de62250a40af322ef49d9c435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash (2).fbx using Guid(ef1f244de62250a40af322ef49d9c435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e070c169eb8e6e4e9439eb9a4828e8db') in 0.023311 seconds
+  Import took 0.028087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000759 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Slash (2).fbx
+  artifactKey: Guid(ef1f244de62250a40af322ef49d9c435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Slash (2).fbx using Guid(ef1f244de62250a40af322ef49d9c435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e070c169eb8e6e4e9439eb9a4828e8db') in 0.021847 seconds
+  Import took 0.025582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 514.190903 seconds.
+  path: Assets/07.Animations/Player.controller
+  artifactKey: Guid(7c16ab0239439aa4f924f70f57cfee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Player.controller using Guid(7c16ab0239439aa4f924f70f57cfee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855135404c736af31f48e1b681be6e5b') in 0.058340 seconds
+  Import took 0.068121 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.9 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 2.886400 ms (FindLiveObjects: 0.230700 ms CreateObjectMapping: 0.070400 ms MarkObjects: 2.455800 ms  DeleteObjects: 0.127600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.594 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.9 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 2.327200 ms (FindLiveObjects: 0.173900 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.993900 ms  DeleteObjects: 0.094300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 724.959618 seconds.
+  path: Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx
+  artifactKey: Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx using Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1e5e345bdd2e9f845cc8270b141921') in 0.535947 seconds
+  Import took 0.543294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.950603 seconds.
+  path: Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx
+  artifactKey: Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx using Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36609307dd866a9b414f465cc1b07b7') in 0.094128 seconds
+  Import took 0.101282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.685272 seconds.
+  path: Assets/07.Animations/Player.controller
+  artifactKey: Guid(7c16ab0239439aa4f924f70f57cfee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Player.controller using Guid(7c16ab0239439aa4f924f70f57cfee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18ef39e7842d75a7130a66a5d4a84f3') in 0.043820 seconds
+  Import took 0.053643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.862488 seconds.
+  path: Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx
+  artifactKey: Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx using Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a507701ac2b00f57dbc5d6560f4e0a75') in 0.093917 seconds
+  Import took 0.098576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.611499 seconds.
+  path: Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx
+  artifactKey: Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx using Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5bbc80f80a911222ce330fcc175092') in 0.069292 seconds
+  Import took 0.078854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.323793 seconds.
+  path: Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx
+  artifactKey: Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx using Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017057da321c5c43c338c9fb4890eaa3') in 0.064232 seconds
+  Import took 0.068660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 998.388482 seconds.
+  path: Assets/VRoid_Kai (1).zip
+  artifactKey: Guid(32971e9dc4cec104e864c2b2fafb5a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRoid_Kai (1).zip using Guid(32971e9dc4cec104e864c2b2fafb5a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0e4820f5ede9885eb57f6a733b3f45') in 0.073265 seconds
+  Import took 0.078881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.650623 seconds.
+  path: Assets/Kai.fbx
+  artifactKey: Guid(48fe9ac5badd8144da181e0258539204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kai.fbx using Guid(48fe9ac5badd8144da181e0258539204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c13aed2c91cbbbee1c63b96b0b16b79') in 0.355003 seconds
+  Import took 0.360996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.864413 seconds.
+  path: Assets/Kai.fbx
+  artifactKey: Guid(48fe9ac5badd8144da181e0258539204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kai.fbx using Guid(48fe9ac5badd8144da181e0258539204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce24415874a69c6d593ec1f8099a568') in 0.197881 seconds
+  Import took 0.204698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.152112 seconds.
+  path: Assets/Kai.fbx
+  artifactKey: Guid(48fe9ac5badd8144da181e0258539204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kai.fbx using Guid(48fe9ac5badd8144da181e0258539204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed403c292a1961f2867ef02708ed79f7') in 0.200408 seconds
+  Import took 0.207311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.836881 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Attack (1).fbx
+  artifactKey: Guid(f0a2f42ad1c3d974a9e723c06c4f4177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Attack (1).fbx using Guid(f0a2f42ad1c3d974a9e723c06c4f4177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f2a2310738b793e3d51efc27366f7d') in 0.028540 seconds
+  Import took 0.034030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.751482 seconds.
+  path: Assets/07.Animations/ybot@Sword And Shield Attack (1).fbx
+  artifactKey: Guid(f0a2f42ad1c3d974a9e723c06c4f4177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/ybot@Sword And Shield Attack (1).fbx using Guid(f0a2f42ad1c3d974a9e723c06c4f4177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13708ff5b32e14661021d0a41ebe17e') in 0.020649 seconds
+  Import took 0.025337 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.912 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.0 MB.
+System memory in use after: 98.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1967.
+Total: 3.998600 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.062900 ms MarkObjects: 3.661100 ms  DeleteObjects: 0.092000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1026.382753 seconds.
+  path: Assets/Resources/EmaceArt/Adventurer.blend
+  artifactKey: Guid(50434112daed4814fabefab1379a8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/EmaceArt/Adventurer.blend using Guid(50434112daed4814fabefab1379a8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ece6a6f4114769fd5ad35d36efe47ef') in 0.693853 seconds
+  Import took 0.719636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.383333 seconds.
+  path: Assets/Resources/EmaceArt/Adventurer.blend
+  artifactKey: Guid(50434112daed4814fabefab1379a8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/EmaceArt/Adventurer.blend using Guid(50434112daed4814fabefab1379a8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9596f36452c0923f9a39ab8cd81f9f58') in 0.019470 seconds
+  Import took 0.026286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 893.170258 seconds.
+  path: Assets/Resources/EmaceArt/Sword And Shield Kick.fbx
+  artifactKey: Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/EmaceArt/Sword And Shield Kick.fbx using Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdac0a495d47ebc96b4dd656674a602c') in 0.484080 seconds
+  Import took 0.496831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.862112 seconds.
+  path: Assets/05.Models/Kai.fbx
+  artifactKey: Guid(c8634e41668d6254a9b096f5e9d13150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/Kai.fbx using Guid(c8634e41668d6254a9b096f5e9d13150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af9e4233e14d763d214f73f92b5d743') in 1.128080 seconds
+  Import took 1.136802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.907871 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752a81cbd2237b6f1ed2873af2b3ed50') in 0.024156 seconds
+  Import took 0.031910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.072700 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91228f47f0567a655e705dc7f6882645') in 0.021379 seconds
+  Import took 0.026625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001194 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91228f47f0567a655e705dc7f6882645') in 0.019674 seconds
+  Import took 0.024987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.519708 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cd47fab581d6a7f1bb2af7356ef345') in 0.021725 seconds
+  Import took 0.027177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.684586 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bd6da7d4d63fe1e0a81a5e6577eac9') in 0.017248 seconds
+  Import took 0.022926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.897134 seconds.
+  path: Assets/05.Models/Kai.fbx
+  artifactKey: Guid(c8634e41668d6254a9b096f5e9d13150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/Kai.fbx using Guid(c8634e41668d6254a9b096f5e9d13150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dfbe6689b11852c24743929ec1a2a5') in 0.199266 seconds
+  Import took 0.205756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.258612 seconds.
+  path: Assets/07.Animations/Sword And Shield Kick.fbx
+  artifactKey: Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Sword And Shield Kick.fbx using Guid(ad1bd7ce215604f449e563eaa5f5daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133c25f751af0006249e991d3e4cea71') in 0.022244 seconds
+  Import took 0.026871 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.512 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.0 MB.
+System memory in use after: 98.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1971.
+Total: 12.461300 ms (FindLiveObjects: 0.650400 ms CreateObjectMapping: 0.085700 ms MarkObjects: 11.149500 ms  DeleteObjects: 0.573000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.606 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.0 MB.
+System memory in use after: 98.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 2.411600 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.063200 ms MarkObjects: 2.001400 ms  DeleteObjects: 0.093900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 487.534287 seconds.
+  path: Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx
+  artifactKey: Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx using Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fd7879a81b50ac55602ab232a31511') in 0.423262 seconds
+  Import took 0.427466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.233294 seconds.
+  path: Assets/07.Animations/kachujin_g_rosales@Sword And Shield Slash.fbx
+  artifactKey: Guid(06c23d46c96448547aed5b1f0ddcad40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/kachujin_g_rosales@Sword And Shield Slash.fbx using Guid(06c23d46c96448547aed5b1f0ddcad40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b0824e517b7e2fc2a8118ccae9b7a1') in 0.030183 seconds
+  Import took 0.036318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.986399 seconds.
+  path: Assets/07.Animations/kachujin_g_rosales@Sword And Shield Slash.fbx
+  artifactKey: Guid(06c23d46c96448547aed5b1f0ddcad40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/kachujin_g_rosales@Sword And Shield Slash.fbx using Guid(06c23d46c96448547aed5b1f0ddcad40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8ff2208591aa349b16a253f4a32841') in 0.019398 seconds
+  Import took 0.024209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 498.224953 seconds.
+  path: Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx
+  artifactKey: Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/kachujin_g_rosales@Sword And Shield Idle.fbx using Guid(539f7d6a26037a3469a5427198cbc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1df5acac59c3f47de47ee67322c489') in 0.224378 seconds
+  Import took 0.231463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.891398 seconds.
+  path: Assets/07.Animations/Kachujin_diffuse.png
+  artifactKey: Guid(061a328856c276d41ab80a7a6655c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Kachujin_diffuse.png using Guid(061a328856c276d41ab80a7a6655c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5501bbf1e6f2b73d8d7f7438ad3c0eb') in 0.103053 seconds
+  Import took 0.115380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.980746 seconds.
+  path: Assets/07.Animations/Kachujin_specular.png
+  artifactKey: Guid(99778c299cc15104797e892002b6dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Kachujin_specular.png using Guid(99778c299cc15104797e892002b6dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959806484947d2215d5932d28f33ad5c') in 0.041340 seconds
+  Import took 0.047467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.847010 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbx
+  artifactKey: Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbx using Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446e77112d535598e844e6483a840a61') in 0.076016 seconds
+  Import took 0.086825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.067702 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbx
+  artifactKey: Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbx using Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38f5f40e4cb8c72c3b0b65a16ce6643') in 0.103308 seconds
+  Import took 0.108896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.302778 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbx
+  artifactKey: Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbx using Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f623f23e2d79bc52e6b8d14f596b4d6') in 0.088592 seconds
+  Import took 0.094527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.393392 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbx
+  artifactKey: Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbx using Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ee6ff3cb2aad6a52768f53dde864ee') in 0.085795 seconds
+  Import took 0.090543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.136615 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbx
+  artifactKey: Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbx using Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4223e2f30cdf6755a63bf8adc9264fc4') in 0.098913 seconds
+  Import took 0.104045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.802595 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbx
+  artifactKey: Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbx using Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9680ba80175fc28c7fba6b66430bf826') in 0.070688 seconds
+  Import took 0.076013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.827528 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbx
+  artifactKey: Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbx using Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fdf0325f6b779a455ea13042cd4ea3') in 0.073465 seconds
+  Import took 0.077760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.095102 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbx
+  artifactKey: Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbx using Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05a1af76ff47f87902b17d74de8de4e') in 0.126497 seconds
+  Import took 0.132501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.008850 seconds.
+  path: Assets/05.Models/Materials
+  artifactKey: Guid(ac8d3a64457a1f945a575f65e7c4a16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/Materials using Guid(ac8d3a64457a1f945a575f65e7c4a16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baadc1ad932d1d45b42437939e613afe') in 0.016232 seconds
+  Import took 0.021021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.704330 seconds.
+  path: Assets/05.Models/Kachujin_diffuse.png
+  artifactKey: Guid(813a0c828b377bf48868e73d72ad8b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/Kachujin_diffuse.png using Guid(813a0c828b377bf48868e73d72ad8b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0776548889916fcc6a407f4120047d8') in 0.041070 seconds
+  Import took 0.045309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.013806 seconds.
+  path: Assets/05.Models/Kachujin_normal.png
+  artifactKey: Guid(f240aadb679a00d4db1377c77627009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/Kachujin_normal.png using Guid(f240aadb679a00d4db1377c77627009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c02da0508ca2b4ab684c197ccecb5a4') in 0.063006 seconds
+  Import took 0.067374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.916053 seconds.
+  path: Assets/05.Models/Kachujin_specular.png
+  artifactKey: Guid(3246691cd6d55154b9b312aaee2e4756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/Kachujin_specular.png using Guid(3246691cd6d55154b9b312aaee2e4756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f452468d9300c5287579ad8faa913dae') in 0.058434 seconds
+  Import took 0.062197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.262410 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbm
+  artifactKey: Guid(4a11f24f29812e748a2c5aad18ad776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbm using Guid(4a11f24f29812e748a2c5aad18ad776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dfacfb5ed8797649621a27d3c019f8') in 0.024938 seconds
+  Import took 0.028861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.041907 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbx
+  artifactKey: Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbx using Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657e199579ec913c13dba62baec997c3') in 0.054308 seconds
+  Import took 0.059751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.926128 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbx
+  artifactKey: Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbx using Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7941b57caaf4a3468b7bb381a7e2a64a') in 0.097032 seconds
+  Import took 0.101570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.501142 seconds.
+  path: Assets/05.Models/kachujin_g_rosales.fbx
+  artifactKey: Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/kachujin_g_rosales.fbx using Guid(344c146fa3a69a449b11f2075c0475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4662072a5687b71d7f4c038aaffb172e') in 0.119669 seconds
+  Import took 0.126653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.406063 seconds.
+  path: Assets/04.Images/Materials/Kachujin_diffuse.png
+  artifactKey: Guid(eaa3518e13e7a5742a8eb2476a373322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Materials/Kachujin_diffuse.png using Guid(eaa3518e13e7a5742a8eb2476a373322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63225dcdd24cf220bf31514621676514') in 0.040071 seconds
+  Import took 0.044622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 374.336960 seconds.
+  path: Assets/02.Scripts/Movement3D.cs
+  artifactKey: Guid(87b850f91f3956f41aabe5fc09109f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/Movement3D.cs using Guid(87b850f91f3956f41aabe5fc09109f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cb681c5dfdd86854e7992df1db05f4') in 0.019017 seconds
+  Import took 0.024035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/02.Scripts/Movement3D.cs
+  artifactKey: Guid(87b850f91f3956f41aabe5fc09109f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/Movement3D.cs using Guid(87b850f91f3956f41aabe5fc09109f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cb681c5dfdd86854e7992df1db05f4') in 0.008287 seconds
+  Import took 0.012904 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.033 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 3.235900 ms (FindLiveObjects: 0.192200 ms CreateObjectMapping: 0.065300 ms MarkObjects: 2.880800 ms  DeleteObjects: 0.095900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008787 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.515 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 2.323400 ms (FindLiveObjects: 0.170200 ms CreateObjectMapping: 0.064700 ms MarkObjects: 2.002300 ms  DeleteObjects: 0.084600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009431 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.619 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 3.380700 ms (FindLiveObjects: 0.174600 ms CreateObjectMapping: 0.064500 ms MarkObjects: 3.047400 ms  DeleteObjects: 0.092600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
