@@ -6,7 +6,7 @@ public class PlayerAttackCollision : MonoBehaviour
 {
     private void OnEnable()
     {
-        StartCoroutine("AutoDisabls");
+        StartCoroutine(AutoDisable());
     }
     private void OnTriggerEnter(Collider other)
     {

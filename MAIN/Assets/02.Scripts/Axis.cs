@@ -44,15 +44,17 @@ public class Axis : MonoBehaviour
         }
         if (Input.GetMouseButton(1))
         {
+
             Gap.x += Input.GetAxis("Mouse X") * RotationSpeed;
-            Gap.y += Input.GetAxis("Mouse Y") * RotationSpeed*-1;
+            Gap.y += Input.GetAxis("Mouse Y") * RotationSpeed * -1;
 
             Gap.y = Mathf.Clamp(Gap.y, 5f, 60f);
-            TargetRotation = Quaternion.Euler(Gap.y,Gap.x,0);
+            TargetRotation = Quaternion.Euler(Gap.y, Gap.x, 0);
 
             Quaternion q = TargetRotation;
             q.x = q.z = 0;
             CameraVector.transform.rotation = q;
+
         }
     }
 

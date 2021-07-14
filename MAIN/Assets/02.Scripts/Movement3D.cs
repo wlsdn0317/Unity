@@ -29,7 +29,7 @@ public class Movement3D : MonoBehaviour
         {
             
             playerAnimator.OnMovement(true);
-            if (Vector3.Distance(navMeshAgent.destination, transform.position) < 0.1f)
+            if (Vector3.Distance(navMeshAgent.destination, transform.position) < 0.3f)
             {
                 transform.position = navMeshAgent.destination;
                 navMeshAgent.ResetPath();

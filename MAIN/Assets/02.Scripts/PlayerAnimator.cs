@@ -15,10 +15,7 @@ public class PlayerAnimator : MonoBehaviour
     {
         animator.SetBool("isMove", x);
     }
-    public void OnKickAttack()
-    {
-        animator.SetTrigger("onKickAttack");
-    }
+    
     public void OnWeaponAttack()
     {
         animator.SetTrigger("onWeaponAttack");
@@ -27,4 +24,5 @@ public class PlayerAnimator : MonoBehaviour
     {
         attackCollision.SetActive(true);
     }
+    
 }
