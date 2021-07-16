@@ -24,13 +24,22 @@ public class Axis : MonoBehaviour
     void Update()
     {
         Zoom();
-        CameraRotation();
+        //CameraRotation();
+        if (transform.rotation != TargetRotation)
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, TargetRotation, RotationSpeed * Time.deltaTime);
+        }
+        TargetRotation = Quaternion.Euler(45.0f, 320.0f, 0);
+
+        Quaternion q = TargetRotation;
+        q.x = q.z = 0;
+        CameraVector.transform.rotation = q;
     }
 
     void Zoom()
     {
         Distance += Input.GetAxis("Mouse ScrollWheel") * ZoomSpeed * -1;
-        Distance = Mathf.Clamp(Distance, 5f, 10f);
+        Distance = Mathf.Clamp(Distance, 5f, 15f);
 
         AxisVec = transform.forward * -1;
         AxisVec *= Distance;
@@ -49,7 +58,7 @@ public class Axis : MonoBehaviour
             Gap.y += Input.GetAxis("Mouse Y") * RotationSpeed * -1;
 
             Gap.y = Mathf.Clamp(Gap.y, 5f, 60f);
-            TargetRotation = Quaternion.Euler(Gap.y, Gap.x, 0);
+            TargetRotation = Quaternion.Euler(45.0f, 320.0f, 0);
 
             Quaternion q = TargetRotation;
             q.x = q.z = 0;

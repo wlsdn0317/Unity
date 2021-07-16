@@ -18,6 +18,7 @@ public class PlayerAnimator : MonoBehaviour
     
     public void OnWeaponAttack()
     {
+
         animator.SetTrigger("onWeaponAttack");
     }
     public void OnAttackCollision()

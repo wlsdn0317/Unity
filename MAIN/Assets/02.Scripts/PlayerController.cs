@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(1))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -28,15 +28,15 @@ public class PlayerController : MonoBehaviour
                 movement3D.MoveTo(hit.point);
             }
         }
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0))
         {
             playerAnimator.OnWeaponAttack();
         }
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            this.transform.LookAt(enemy_Tr);
-        }
+        //if (Input.GetKeyDown(KeyCode.Tab))
+        //{
+        //    this.transform.LookAt(enemy_Tr);
+        //}
     }
 
-    
+
 }

@@ -13,6 +13,7 @@ public class RangeController : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             MonsterListInRange.Add(other.gameObject);
+            Debug.Log("Mob name : " + other.gameObject.name);
         }
     }
 
