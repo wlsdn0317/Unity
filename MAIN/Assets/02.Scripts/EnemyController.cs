@@ -7,6 +7,8 @@ public class EnemyController : MonoBehaviour
     private Animator animator;
     private SkinnedMeshRenderer meshRenderer;
     private Color originColor;
+
+    float hp = 100f;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -16,12 +18,15 @@ public class EnemyController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        //체력이 감소되거나 피격 애니메이션이 재생되는 등의 코드를 작성
-        Debug.Log(damage + "의 체력이 감소합니다.");
+        hp -= damage;
         //피격 애니메이션 재생
         animator.SetTrigger("onHit");
         //색상 변경
         StartCoroutine("OnHitColor");
+        if(hp<= 0)
+        {
+            GetComponent<EnemyAi>().state = EnemyAi.State.DIE;
+        }
     }
     private IEnumerator OnHitColor()
     {
