@@ -5,6 +5,8 @@ using UnityEngine.AI;
 
 public class EnemyAi : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject attackCollision;
     public enum State
     {
         PATROL, //순찰
@@ -12,7 +14,7 @@ public class EnemyAi : MonoBehaviour
         ATTACK, //공격
         DIE
     }
-    public GameObject player;
+    
 
     public State state = State.PATROL;
 
@@ -34,8 +36,9 @@ public class EnemyAi : MonoBehaviour
     readonly int hashDie = Animator.StringToHash("Die");
     readonly int hashOffset = Animator.StringToHash("Offset");
     readonly int hashWalkSpeed = Animator.StringToHash("WalkSpeed");
-    void Start()
+    void Awake()
     {
+        var player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
            playerTr = player.GetComponent<Transform>();
@@ -66,7 +69,6 @@ public class EnemyAi : MonoBehaviour
 
             //Distance(A 위치, B위치) - A와 B사이의 거리를 계산해주는 함수
             float dist = Vector3.Distance(playerTr.position, enemyTr.position);
-
 
             if (dist <= attackDist) //공격 사거리 이내면 공격으로 변경
             {
@@ -128,6 +130,10 @@ public class EnemyAi : MonoBehaviour
         //SetFloat 등 해당 함수는
         //(해쉬값 / 파라메터이름, 전달하고자 하는값)형태로 사용됨
         animator.SetFloat(hashSpeed, moveAgent.speed);
+    }
+    public void OnAttackCollision()
+    {
+        attackCollision.SetActive(true);
     }
 
 

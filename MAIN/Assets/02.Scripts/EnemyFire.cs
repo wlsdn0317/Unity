@@ -29,7 +29,7 @@ public class EnemyFire : MonoBehaviour
             if(Time.time >= nextFire)
             {
                 Fire();
-                nextFire = Time.time + Random.Range(0f, 0.2f);
+                nextFire = Time.time + 1.5f;
             }
             Quaternion rot = Quaternion.LookRotation(playerTr.position - enemyTr.position);
             enemyTr.rotation = Quaternion.Slerp(enemyTr.rotation,rot,Time.deltaTime * damping);
@@ -39,6 +39,6 @@ public class EnemyFire : MonoBehaviour
     void Fire()
     {
         animator.SetTrigger(hashFire);
-
+        animator.SetInteger("Fireidx", Random.Range(0, 2));
     }
 }

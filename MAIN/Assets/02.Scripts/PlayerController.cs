@@ -8,13 +8,22 @@ public class PlayerController : MonoBehaviour
     private PlayerAnimator playerAnimator;
     private GameObject target;
     private Transform enemy_Tr;
+    private Animator animator;
+    private SkinnedMeshRenderer meshRenderer;
+    private Color originColor;
 
-    void Start()
+
+    float hp = 100f;
+
+    void Awake()
     {
         movement3D = GetComponent<Movement3D>();
         playerAnimator = GetComponentInChildren<PlayerAnimator>();
         target = GameObject.FindGameObjectWithTag("Enemy");
         enemy_Tr = target.transform;
+        animator = GetComponent<Animator>();
+        meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
+        originColor = meshRenderer.material.color;
     }
 
     void Update()
@@ -30,6 +39,8 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0))
         {
+            movement3D.Stop();
+            playerAnimator.OnMovement(false);
             playerAnimator.OnWeaponAttack();
         }
         //if (Input.GetKeyDown(KeyCode.Tab))
@@ -38,5 +49,24 @@ public class PlayerController : MonoBehaviour
         //}
     }
 
-
+    public void TakeDamage(int damage)
+    {
+        hp -= damage;
+        animator.SetTrigger("onHit");
+        StartCoroutine("OnHitColor");
+        if (hp <= 0)
+        {
+            //플레이어 죽는함수
+            playerAnimator.OnDie();
+            gameObject.tag = "Dead";
+            EnemyAi enemyAi = enemy_Tr.GetComponent<EnemyAi>();
+                        
+        }
+    }
+    private IEnumerator OnHitColor()
+    {
+        meshRenderer.material.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        meshRenderer.material.color = originColor;
+    }
 }

@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Axis : MonoBehaviour
 {
-    public Quaternion TargetRotation;
+    public Quaternion TargetRotation; //최종적으로 축적된 gap이 이 변수에 저장됨
     public Transform CameraVector;
+    public float RotationSpeed = 5f;  //회전스피드
+    public float ZoomSpeed =5f;        //줌 스피드
+    
+    float Distance;             //카메라와의 거리
 
-    float RotationSpeed = 10f;
-    float ZoomSpeed =5f;
-    float Distance;
+    private Vector3 AxisVec;    //축의 벡터
+    private Vector3 Gap;        //회전 축적 값
 
-    private Vector3 AxisVec;
-    private Vector3 Gap;
-
-    private Transform MainCamera;
+    private Transform MainCamera; //카메라 컴포넌트
 
     void Start()
     {
@@ -24,16 +24,16 @@ public class Axis : MonoBehaviour
     void Update()
     {
         Zoom();
-        //CameraRotation();
-        if (transform.rotation != TargetRotation)
-        {
-            transform.rotation = Quaternion.Slerp(transform.rotation, TargetRotation, RotationSpeed * Time.deltaTime);
-        }
-        TargetRotation = Quaternion.Euler(45.0f, 320.0f, 0);
+        CameraRotation();
+        //if (transform.rotation != TargetRotation)
+        //{
+        //    transform.rotation = Quaternion.Slerp(transform.rotation, TargetRotation, RotationSpeed * Time.deltaTime);
+        //}
+        //TargetRotation = Quaternion.Euler(45.0f, 320.0f, 0);
 
-        Quaternion q = TargetRotation;
-        q.x = q.z = 0;
-        CameraVector.transform.rotation = q;
+        //Quaternion q = TargetRotation;
+        //q.x = q.z = 0;
+        //CameraVector.transform.rotation = q;
     }
 
     void Zoom()
@@ -51,15 +51,18 @@ public class Axis : MonoBehaviour
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, TargetRotation, RotationSpeed*Time.deltaTime);
         }
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButton(2))
         {
 
-            Gap.x += Input.GetAxis("Mouse X") * RotationSpeed;
-            Gap.y += Input.GetAxis("Mouse Y") * RotationSpeed * -1;
+            Gap.x += Input.GetAxis("Mouse Y") * RotationSpeed * -1;
+            Gap.y += Input.GetAxis("Mouse X") * RotationSpeed;
 
-            Gap.y = Mathf.Clamp(Gap.y, 5f, 60f);
-            TargetRotation = Quaternion.Euler(45.0f, 320.0f, 0);
+            //카메라 회전 범위 제한.
+            Gap.x = Mathf.Clamp(Gap.x, 5f, 60f);
+            //회전 값을 변수에 저장.
+            TargetRotation = Quaternion.Euler(Gap);
 
+            //카메라벡터 객체에 Axis객체의 x,z회전 값을 제외한 y값만을 넘긴다.
             Quaternion q = TargetRotation;
             q.x = q.z = 0;
             CameraVector.transform.rotation = q;

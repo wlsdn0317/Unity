@@ -15,6 +15,11 @@ public class PlayerAttackCollision : MonoBehaviour
         {
             other.GetComponent<EnemyController>().TakeDamage(10);
         }
+        else if (other.CompareTag("Player"))
+        {
+            other.GetComponent<PlayerController>().TakeDamage(5);
+            Debug.Log("µ¥¹ÌÁö 5");
+        }
     }
     private IEnumerator AutoDisable()
     {

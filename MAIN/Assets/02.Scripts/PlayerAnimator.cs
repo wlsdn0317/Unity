@@ -7,6 +7,8 @@ public class PlayerAnimator : MonoBehaviour
     [SerializeField]
     private GameObject attackCollision;
     private Animator animator;
+
+    
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -18,12 +20,21 @@ public class PlayerAnimator : MonoBehaviour
     
     public void OnWeaponAttack()
     {
-
-        animator.SetTrigger("onWeaponAttack");
+        StartCoroutine("AttackCoroutine");
     }
     public void OnAttackCollision()
     {
         attackCollision.SetActive(true);
     }
     
+    IEnumerator AttackCoroutine()
+    {
+        animator.SetTrigger("onWeaponAttack");
+        yield return new WaitForSeconds(0.9f);
+    }
+
+    public void OnDie()
+    {
+        animator.SetTrigger("Die");
+    }
 }

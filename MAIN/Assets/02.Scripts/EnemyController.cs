@@ -20,7 +20,7 @@ public class EnemyController : MonoBehaviour
     {
         hp -= damage;
         //피격 애니메이션 재생
-        animator.SetTrigger("onHit");
+        animator.SetTrigger("onHit_E");
         //색상 변경
         StartCoroutine("OnHitColor");
         if(hp<= 0)
