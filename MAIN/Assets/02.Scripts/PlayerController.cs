@@ -19,11 +19,14 @@ public class PlayerController : MonoBehaviour
     {
         movement3D = GetComponent<Movement3D>();
         playerAnimator = GetComponentInChildren<PlayerAnimator>();
-        target = GameObject.FindGameObjectWithTag("Enemy");
-        enemy_Tr = target.transform;
+       
         animator = GetComponent<Animator>();
         meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
         originColor = meshRenderer.material.color;
+    }
+    private void Start()
+    {
+        
     }
 
     void Update()
@@ -51,6 +54,8 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        target = GameObject.FindGameObjectWithTag("Enemy");
+        enemy_Tr = target.transform;
         hp -= damage;
         animator.SetTrigger("onHit");
         StartCoroutine("OnHitColor");
