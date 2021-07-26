@@ -31,25 +31,28 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButton(1))
+        if (!InventoryUI.activeInventory)
         {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            if (Input.GetMouseButton(1))
             {
-                movement3D.MoveTo(hit.point);
+                RaycastHit hit;
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+                {
+                    movement3D.MoveTo(hit.point);
+                }
             }
+            if (Input.GetMouseButtonDown(0))
+            {
+                movement3D.Stop();
+                playerAnimator.OnMovement(false);
+                playerAnimator.OnWeaponAttack();
+            }
+            //if (Input.GetKeyDown(KeyCode.Tab))
+            //{
+            //    this.transform.LookAt(enemy_Tr);
+            //}
         }
-        if (Input.GetMouseButtonDown(0))
-        {
-            movement3D.Stop();
-            playerAnimator.OnMovement(false);
-            playerAnimator.OnWeaponAttack();
-        }
-        //if (Input.GetKeyDown(KeyCode.Tab))
-        //{
-        //    this.transform.LookAt(enemy_Tr);
-        //}
     }
 
     public void TakeDamage(int damage)

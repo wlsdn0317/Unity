@@ -9,7 +9,7 @@ public class InventoryUI : MonoBehaviour
     Inventory inven;
 
     public GameObject InventoryPanel;
-    bool activeInventory = false;
+    public static bool activeInventory = false;
 
     public Slot[] slots;
     public Transform slotHolder;
@@ -54,12 +54,15 @@ public class InventoryUI : MonoBehaviour
     {
         if(Item.ItemType.Equipment != _item.itemType)
         {
-            for(int i = 0; i<slots.Length; i++)
+            for (int i = 0; i < slots.Length; i++)
             {
-                if(slots[i].item.itemName == _item.itemName)
+                if (slots[i].item != null)
                 {
-                    slots[i].SetSlotCount(_count);
-                    return;
+                    if (slots[i].item.itemName == _item.itemName)
+                    {
+                        slots[i].SetSlotCount(_count);
+                        return;
+                    }
                 }
             }
         }
