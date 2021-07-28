@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class InventoryUI : MonoBehaviour
 {
     Inventory inven;
-    SlotToolTip slottooltip;
 
     public GameObject InventoryPanel;
     public static bool activeInventory = false;
@@ -20,8 +19,6 @@ public class InventoryUI : MonoBehaviour
         slots = slotHolder.GetComponentsInChildren<Slot>();
         inven.onSlotCountChange += SlotChange;
         InventoryPanel.SetActive(activeInventory);
-        slottooltip = FindObjectOfType<SlotToolTip>();
-
     }
 
     private void SlotChange(int val)
@@ -45,10 +42,6 @@ public class InventoryUI : MonoBehaviour
         {
             activeInventory = !activeInventory;
             InventoryPanel.SetActive(activeInventory);
-            if (!InventoryPanel.activeSelf)
-            {
-                slottooltip.HideToolTip();
-            }
         }
     }
 

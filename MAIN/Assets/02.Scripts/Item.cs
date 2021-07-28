@@ -14,8 +14,6 @@ public class Item : ScriptableObject //게임오브젝트에 붙일필요 X
     }
 
     public string itemName;
-    [TextArea] //여러줄 가능
-    public string itemDesc;
     public ItemType itemType;
     public Sprite itemImage;
     public GameObject itemPrefab;

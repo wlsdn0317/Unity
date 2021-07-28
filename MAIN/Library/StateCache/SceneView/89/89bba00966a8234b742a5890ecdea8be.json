@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":0.07681410759687424,"y":0.974090576171875,"z":-37.09510040283203},"rotation":{"x":-0.189935564994812,"y":-0.007363407872617245,"z":-0.001424557762220502,"w":0.9817683696746826},"size":10.25349235534668,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":454.03997802734377,"y":200.34259033203126,"z":0.0},"rotation":{"x":0.1378474235534668,"y":-0.01963466964662075,"z":0.0027118814177811147,"w":0.9902905225753784},"size":25.75701904296875,"orthographic":true}
+>>>>>>> parent of 21f6ef9 (210727)

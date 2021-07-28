@@ -4,30 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler, IDropHandler
+public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler ,IDropHandler
 {
     public Item item; //획득한 아이템
     public int itemCount;//획득한 아이템의 개수
     public Image itemImage;//아이템의 이미지
-    public SlotToolTip slottooltip;
-
+        
     [SerializeField]
     private Text text_Count;
     [SerializeField]
     private GameObject go_CountImage;
-    private Rect baseRect;//Inventory_Base이미지의 Rect 정보 받아옴
-    private RectTransform baseRectTr;
-    private InputNumber theInputNumber;
-
-
-
-    void Start()
-    {
-        baseRect = transform.parent.parent.parent.parent.GetComponent<RectTransform>().rect;
-        baseRectTr = transform.parent.parent.parent.parent.GetComponent<RectTransform>();
-        theInputNumber = FindObjectOfType<InputNumber>();
-
-    }
 
     //아이템 이미지의 투명도 조절
     private void SetColor(float _alpha)
@@ -44,7 +30,7 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
         itemCount = _count;
         itemImage.sprite = item.itemImage;
 
-        if (item.itemType != Item.ItemType.Equipment)
+        if(item.itemType != Item.ItemType.Equipment)
         {
             go_CountImage.SetActive(true);
             text_Count.text = itemCount.ToString();
@@ -81,14 +67,14 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (eventData.button == PointerEventData.InputButton.Right)
+        if(eventData.button == PointerEventData.InputButton.Right)
         {
-            if (item != null)
+            if(item != null)
             {
-                if (item.itemType == Item.ItemType.Equipment)
+                if(item.itemType == Item.ItemType.Equipment)
                 {
                     //장착 코루틴 함수 (장비)
-
+                    
                 }
                 else
                 {
@@ -101,7 +87,7 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     //드래그가 시작 됐을때 발생하는 이벤트
     public void OnBeginDrag(PointerEventData eventData)
     {
-        if (item != null)
+        if(item != null)
         {
             DragSlot.instance.dragSlot = this;
             DragSlot.instance.DragSetImage(itemImage);
@@ -112,7 +98,7 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     //마우스 드래그 중일 때 계속 발생하는 이벤트
     public void OnDrag(PointerEventData eventData)
     {
-        if (item != null)
+        if(item != null)
         {
             DragSlot.instance.transform.position = eventData.position;
         }
@@ -121,51 +107,16 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     //마우스 드래그가 끝났을 때 발생하는 이벤트
     public void OnEndDrag(PointerEventData eventData)
     {
-        //렉트 트렌스폼을 받을경우 RectTransformUtility.RectangleContainsScreenPoint를 쓸수 있음
-        //RectTransformUtility.RectangleContainsScreenPoint(baseRectTr, Input.mousePosition);
-        if (DragSlot.instance.transform.localPosition.x < baseRect.xMin
-            || DragSlot.instance.transform.localPosition.x > baseRect.xMax
-            || DragSlot.instance.transform.localPosition.y < baseRect.yMin
-            || DragSlot.instance.transform.localPosition.y > baseRect.yMax)
-        {
-            //장비창에 드래그하고 있는 아이템을 생성
-            //Instantiate(DragSlot.instance.dragSlot.item.itemPrefab,)
-            if (DragSlot.instance.dragSlot != null)
-            {
-                if (itemCount <= 1)
-                {
-                    theInputNumber.StartDrop(1);
-                    DragSlot.instance.SetColor(0);
-                }
-                else
-                {
-                    theInputNumber.Call();
-                }
-            }
-        }
-        else
-        {
-            DragSlot.instance.SetColor(0);
-            DragSlot.instance.dragSlot = null;
-        }
-
-
+        DragSlot.instance.SetColor(0);
+        DragSlot.instance.dragSlot = null;
     }
 
     //해당 슬롯에 무언가가 마우스 드롭 됐을 때 발생하는 이벤트
     public void OnDrop(PointerEventData eventData)
     {
-        if (DragSlot.instance.dragSlot != null)
+        if(DragSlot.instance.dragSlot != null)
         {
-            if (this.GetComponent<Button>().interactable == true)
-            {
-                ChangeSlot();
-            }
-        }
-
-        if (item != null)
-        {
-            slottooltip.ShowToolTip(item, transform.position);
+            ChangeSlot();
         }
     }
     private void ChangeSlot()
@@ -183,21 +134,5 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
         {
             DragSlot.instance.dragSlot.ClearSlot();
         }
-    }
-
-    //마우스 커서가 슬롯에 들어갈 때 발동
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-        if (item != null)
-        {
-            slottooltip.ShowToolTip(item, transform.position);
-        }
-    }
-    //마우스 커서가 슬롯에서 나올 때 발동
-    public void OnPointerExit(PointerEventData eventData)
-    {
-
-        slottooltip.HideToolTip();
-
     }
 }
