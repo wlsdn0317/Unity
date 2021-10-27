@@ -6,9 +6,12 @@ public class Player : MonoBehaviour
 {
     public float moveSpeed;
 
+    public bool attackMode;
+
     private void Awake()
     {
-        moveSpeed = 10f;
+        moveSpeed = 8f;
+        attackMode = false;
     }
 
     void FixedUpdate()
@@ -20,7 +23,38 @@ public class Player : MonoBehaviour
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-        
-        this.transform.position += new Vector3(h, 0, v)*Time.deltaTime*moveSpeed;
+
+        Vector3 moveVec = new Vector3(h, 0, v).normalized;
+
+        this.transform.position += moveVec * moveSpeed * Time.deltaTime;  
+
+        this.transform.LookAt(this.transform.position + moveVec);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        {
+            if (other.CompareTag("BigItem"))
+            {
+                if (attackMode == false)
+                {
+                    StartCoroutine(AttackMode());
+                }
+                else
+                {
+                    return;
+                }
+            }
+        }
+    }
+
+    IEnumerator AttackMode()
+    {
+        attackMode = true;
+        yield return new WaitForSeconds(2f);
+        attackMode = false;
+    }
+
 }
+
+
