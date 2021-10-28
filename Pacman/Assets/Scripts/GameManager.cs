@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class GameManager : MonoBehaviour
 
     public int score;
     public Text point;
+    public GameObject gameoverPanel;
+
     private void Awake()
     {
         if(instance == null)
@@ -30,5 +33,23 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         point.text = score.ToString();
+    }
+
+    public void GameOver()
+    {
+        gameoverPanel.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void OnClickRestart()
+    {
+        SceneManager.LoadScene(0);
+        gameoverPanel.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void OnClickExit()
+    {
+        Application.Quit();
     }
 }
